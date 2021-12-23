@@ -1,0 +1,4 @@
+#### Reflexões sobre o desafio 4x4
+A diferença que eu considero principal entre a [resolução do professor](https://github.com/kyriosdata/desafio4x4) e a [minha resolução](https://github.com/felipelagares/software-design-2021/tree/main/avaliacao2) é que ele considerou como sendo mais importante a explicação do design e não o código em si. Acho que esse foi meu principal erro de interpretação do objetivo da disciplina, deveria ter me focado mais na elaboração da explicação do que na construção.
+
+Em relação a minha solução eu deveria ter me focado na otimização da forma de resolver o problema, minha proposta de criar todos os quadrados possiveis ficou péssima, inviavel de ser aplicada. Como mostrado, eu deveria tentar reduzir as possibilidades de resposta usando as informações disponiveis.
