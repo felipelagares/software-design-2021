@@ -15,6 +15,7 @@ Este documento é gerado a partir do levantamento de requisitos feito para o Moc
 #### 1.4 Referências
 
 #### 1.5 Visão Geral
+Os próximos tópicos descrevem quais serão os requisitos e restrições utilizados para definir a arquitetura a ser implementada, bem como, quais atributos de qualidades serão priorizados e o porquê da escolha. Quais os padrões arquiteturais serão utilizados conforme os atributos de qualidade selecionados e como funcionará o trade-off entre esses padrões arquiteturais, bem como o porquê da escolha dos padrões arquiteturais. Quais e como as visões arquiteturais serão detalhadas e quais os pontos de vista da arquitetura serão utilizados para descrever as visões.
 
 ### 2. Contexto da Arquitetura 
 
