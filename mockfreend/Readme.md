@@ -26,6 +26,10 @@ Os próximos tópicos descrevem quais serão os requisitos e restrições utiliz
 
 ### 3. Representação da Arquitetura
 
+Arquitetura do software a ser desenvolvido será uma arquitetura híbrida e independente que
+une as principais características dos estilos arquiteturais: ​Camadas,​ Cliente-Servidor, REST, e ​prioriza os Atributos de qualidade: Segurança e Portabilidade.<br />
+Para representar as decisões arquiteturais definidas ao findar da análise, serão utilizados os pontos de vista definidos detalhados a baixo.
+
 ### 4. Ponto de vista do Projetista 
 #### 4.1 Visão Geral
 
