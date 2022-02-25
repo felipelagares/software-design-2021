@@ -17,7 +17,8 @@ Este documento é gerado a partir do levantamento de requisitos feito para o Moc
 #### 1.5 Visão Geral
 Os próximos tópicos descrevem quais serão os requisitos e restrições utilizados para definir a arquitetura a ser implementada, bem como, quais atributos de qualidades serão priorizados e o porquê da escolha. Quais os padrões arquiteturais serão utilizados conforme os atributos de qualidade selecionados e como funcionará o trade-off entre esses padrões arquiteturais, bem como o porquê da escolha dos padrões arquiteturais. Quais e como as visões arquiteturais serão detalhadas e quais os pontos de vista da arquitetura serão utilizados para descrever as visões.
 
-### 2. Contexto da Arquitetura 
+### 2. Contexto da Arquitetura
+ Decidiu-se utilizar a arquitetura cliente-servidor pelo fato de estarmos desenvolvendo um serviço e Restful por ser voltada a serviços e sua ampla utilização globalmente.
 
 #### 2.1 Funcionalidades e Restrições Arquiteturais
 
@@ -25,7 +26,7 @@ Os próximos tópicos descrevem quais serão os requisitos e restrições utiliz
 
 ### 3. Representação da Arquitetura
 
-### 4. Ponto de vista do Projetista
+### 4. Ponto de vista do Projetista 
 #### 4.1 Visão Geral
 
 ### 5. Ponto de vista do Desenvolvedor
