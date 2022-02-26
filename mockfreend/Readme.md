@@ -30,8 +30,12 @@ Arquitetura do software a ser desenvolvido será uma arquitetura híbrida e in
 une as principais características dos estilos arquiteturais: ​Camadas,​ Cliente-Servidor, REST, e ​prioriza os Atributos de qualidade: Segurança e Portabilidade.<br />
 Para representar as decisões arquiteturais definidas ao findar da análise, serão utilizados os pontos de vista definidos detalhados a baixo.
 
-### 4. Ponto de vista do Projetista 
+### 4. Ponto de vista dos Casos de Uso
 #### 4.1 Visão Geral
+Para fornecer uma base para o planejamento da arquitetura e de todos os outros artefatos que serão gerados durante o ciclo de vida do software, é gerada,
+na análise de requisitos, uma visão chamada visão de casos de uso. Só existe uma visão de casos de uso para cada sistema. Ela ilustra os casos de uso e
+cenários que englobam o comportamento, as classes e riscos técnicos significativos do ponto de vista da arquitetura. A visão de casos de uso é refinada
+e considerada inicialmente em cada iteração do ciclo de vida do software.
 
 ### 5. Ponto de vista do Desenvolvedor
 #### 5.1 Visão Geral
