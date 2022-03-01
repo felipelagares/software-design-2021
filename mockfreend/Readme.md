@@ -22,7 +22,21 @@ Os próximos tópicos descrevem quais serão os requisitos e restrições utiliz
 
 #### 2.1 Funcionalidades e Restrições Arquiteturais
 
+|Id.|Tipo|Id. do documento de História de Usuário|
+|---|---|---|
+|RAS_1|Requisitos Não-Funcionais|US01|
+
+Os RAS serão os responsáveis por guiar as decisões sobre quais estilos arquiteturais serão adequados para favorecer os atributos de qualidade priorizados.
+
+O RAS_1 deixa claro que haverá uma comunicação entre este software e um software externo, através da API "fake". Isto direciona para a utilização do estilo arquitetural Cliente-Servidor e fica claro, também, a necessidade da utilização do estilo arquitetural de Camadas, como forma de viabilizar a separação das responsabilidades do sistema e do estilo arquitetural REST para definir os métodos de comunicação entre os componentes.
+
 #### 2.2 Atributos de Qualidades Prioritários
+Conforme definido pelo tópico anterior (2.1), o software a ser desenvolvido realizará interações com um software externo. Devido a essa característica é necessário implantar um modelo arquitetural que possua a **Segurança** como um de seus atributos de qualidade.
+
+O Software a ser desenvolvido deverá coexistir com outros sistemas. Os estilos arquiteturais cliente-servidor em conjunto com ferramentas de implantação favorecem a coexistência do software e por conseguinte o atributo de qualidade **Portabilidade**.
+
+E assim, definimos os atributos de qualidade a serem priorizados durante o
+desenvolvimento da arquitetura a ser implementada: Segurança e Portabilidade respectivamente.
 
 ### 3. Representação da Arquitetura
 
