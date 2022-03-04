@@ -53,7 +53,7 @@ e considerada inicialmente em cada iteração do ciclo de vida do software.
 
 ### 5. Ponto de vista do Desenvolvedor
 #### 5.1 Visão Geral
-Desenvolver uma API seguindo as restrições e funcionalidades arquiteturais e usando o serviço Restful, sendo capaz de receber solicitações de dados seguindo parâmetros definidos pelo usuario e usar e escrever num banco de dados com os dados pedidos, entregando ao software externo esses dados que usará da API como o usuário desejar. Tudo isso deve seguir os atributos impostos pela 2.2 por serem prioritarios. 
+Desenvolver uma API seguindo as restrições e funcionalidades arquiteturais a estrutura Restful, sendo capaz de receber solicitações de dados seguindo parâmetros definidos pelo usuario e usar e escrever num banco de dados com os dados pedidos, entregando ao software externo esses dados que usará da API como o usuário desejar. Tudo isso deve seguir os atributos impostos pela 2.2 por serem prioritarios. 
 #### 5.2 Visão lógica
 As caracteristicas de uma API e os atributos prioritarios serão definidos pela estrutura Restful, porém os parâmetros dados ao API serão dados em página Web que serão aplicados com HTTPS pelo usuário, junto com a base de dados do usuário, que permitirá a API diretamente use e escreva para o software externo, exatamente como esta discrito no diagrama de container.
 
