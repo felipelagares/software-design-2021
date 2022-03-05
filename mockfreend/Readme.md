@@ -7,20 +7,20 @@
 
 #### 1.1 Requisitos
 << breve descricação dos requisitos>>
-[Requisitos](https://github.com/felipelagares/software-design-2021/blob/dev/mockfreend/requisitos)
+[Requisitos](https://github.com/felipelagares/software-design-2021/main/mockfreend/requisitos)
 
 ### 2. Modelo
 << breve descrição sobre o c4 Model>>
 
 #### 2.1 Diagrama de Contexto
-<img src="https://github.com/felipelagares/software-design-2021/blob/gustavomarques/mockfreend/images/Diagrama_de_Contexto.png">
+<img src="https://github.com/felipelagares/software-design-2021/blob/main/mockfreend/images/Diagrama_de_Contexto.png">
 
 #### 2.2 Diagrama de Contâiner
-<img src="https://github.com/felipelagares/software-design-2021/blob/gustavomarques/mockfreend/images/Diagrama_de_Container.png">
+<img src="https://github.com/felipelagares/software-design-2021/blob/main/mockfreend/images/Diagrama_de_Container.png">
 
 ### 3. Arquitetura
 << breve descrição da arquitetura>>
-[Arquitetura](https://github.com/felipelagares/software-design-2021/blob/dev/mockfreend/arquitetura)
+[Arquitetura](https://github.com/felipelagares/software-design-2021/blob/main/mockfreend/arquitetura)
 
 ### 4. Geração de Dados
 #### 4.1 Tipos de Dados Suportados
