@@ -3,7 +3,7 @@
 ###### Versão 1.0
 
 ### 1. Introdução
-Este projeto tem como objetivo apresentar um design baseando-se no serviço [Mock](https://mockend.com/), seguindo seu escopo e funcionalidades.
+Este projeto tem como objetivo apresentar um design baseando-se no serviço [Mockend](https://mockend.com/), seguindo seu escopo e funcionalidades.
 
 #### 1.1 Requisitos
 Os requisitos deste software é basicamente gerar uma API "fake" para o desenvolver testar o seu frontend. Mais informações sobre os requisitos podem ser encontrados no documento abaixo:
@@ -29,8 +29,7 @@ une as principais características dos estilos arquiteturais: ​Camadas,​ Cl
 #### 4.1 Tipos de Dados Suportados
 Alguns dados possuem parâmetros opcionais, o parâmetro é estabelecido no formato. O tipo de dados gera um número aleatório entre uma faixa de valores estabelecida previamente, por exemplo, se quero um número entre 0 e 10000 uso o formato tipodedados tipodedado{parâmetro} em que o parâmetro é id-0 e id-1000. O comando utilizado é datatypes datatype{id-1000}.
 
-Números
-
+##### 4.1.1 Números
 |Chave|Descrição|Exemplo|Parâmetros opcionais|
 |---|---|---|---|
 |id|Inteiro entre 0 e 500|142|Gera um número inteiro aleatório entre 0 e id-500|
