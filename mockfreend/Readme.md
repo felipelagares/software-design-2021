@@ -1,7 +1,6 @@
-
 #  Mockend
 ## Documento de descrição da Arquitetura de Software 
-###### Versão 1.0
+###### Versão 2.0
 
 ### 1. Introdução 
 #### 1.1 Finalidade
@@ -53,7 +52,18 @@ e considerada inicialmente em cada iteração do ciclo de vida do software.
 
 ### 5. Ponto de vista do Desenvolvedor
 #### 5.1 Visão Geral
-Desenvolver uma API seguindo as restrições e funcionalidades arquiteturais a estrutura Restful, sendo capaz de receber solicitações de dados seguindo parâmetros definidos pelo usuario e usar e escrever num banco de dados com os dados pedidos, entregando ao software externo esses dados que usará da API como o usuário desejar. Tudo isso deve seguir os atributos impostos pela 2.2 por serem prioritarios. 
+
 #### 5.2 Visão lógica
-As caracteristicas de uma API e os atributos prioritarios serão definidos pela estrutura Restful, porém os parâmetros dados ao API serão dados em página Web que serão aplicados com HTTPS pelo usuário, junto com a base de dados do usuário, que permitirá a API diretamente use e escreva para o software externo.
+
+### 6. Tipos de dados
+
+Alguns dados possuem parâmetros opcionais, o parâmetro é estabelecido no formato. O tipo de dados gera um número aleatório entre uma faixa de valores estabelecida previamente, por exemplo, se quero um número entre 0 e 10000 uso o formato tipodedados tipodedado{parâmetro} em que o parâmetro é id-0 e id-1000. O comando utilizado é datatypes datatype{id-1000}.
+
+Números
+|Chave|Descrição|Exemplo|Parâmetros opcionais|
+|---|---|---|---|
+|id|Inteiro entre 0 e 500|142|Gera um número inteiro aleatório entre 0 e id-500|
+|random-float|Decimal entre 0 e 10|8.753240|Gera um número flutuante aleatório entre 0 e id-10|
+|boolean|Verdadeiro ou falso|True|Sem parâmetros|
+
 
