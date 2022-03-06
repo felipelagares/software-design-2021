@@ -8,22 +8,22 @@ Este projeto tem como objetivo apresentar um design baseando-se no serviço [Moc
 #### 1.1 Requisitos
 Os requisitos deste software é basicamente gerar uma API "fake" para o desenvolver testar o seu frontend. Mais informações sobre os requisitos podem ser encontrados no documento abaixo:
 
-[Requisitos](https://github.com/felipelagares/software-design-2021/tree/gustavomarques/mockfreend/requisitos)
+[Requisitos](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/requisitos)
 
 ### 2. Modelo
 Este design utiliza conceitos do [C4 Model](https://c4model.com/) para auxiliar na sua definição. Foi utilizado a criação do diagrama de contexto e do diagrama de contâiner.
 
 #### 2.1 Diagrama de Contexto
-<img src="https://github.com/felipelagares/software-design-2021/blob/gustavomarques/mockfreend/imagens/Diagrama_de_Contexto.png">
+<img src="https://github.com/felipelagares/software-design-2021/blob/dev/Loremmock/imagens/Diagrama_de_Contexto.png">
 
 #### 2.2 Diagrama de Contâiner
-<img src="https://github.com/felipelagares/software-design-2021/blob/gustavomarques/mockfreend/imagens/Diagrama_de_Container.png">
+<img src="https://github.com/felipelagares/software-design-2021/blob/dev/Loremmock/imagens/Diagrama_de_Container.png">
 
 ### 3. Arquitetura
 A arquitetura do software a ser desenvolvido será uma arquitetura híbrida e independente que
 une as principais características dos estilos arquiteturais: ​Camadas,​ Cliente-Servidor, REST, e ​prioriza os Atributos de qualidade: Segurança e Portabilidade. Consulte o documento abaixo para mais detalhes.
 
-[Arquitetura](https://github.com/felipelagares/software-design-2021/tree/gustavomarques/mockfreend/arquitetura)
+[Arquitetura](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/arquitetura)
 
 ### 4. Geração de Dados
 #### 4.1 Tipos de Dados Suportados
