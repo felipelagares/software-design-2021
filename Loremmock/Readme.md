@@ -1,6 +1,6 @@
 #  Mockend
 ## Documento de Design
-###### Versão 1.0
+###### Versão 1.1
 
 ### 1. Introdução
 Este projeto tem como objetivo apresentar um design baseando-se no serviço [Mockend](https://mockend.com/), seguindo seu escopo e funcionalidades.
@@ -35,6 +35,21 @@ Alguns dados possuem parâmetros opcionais, o parâmetro é estabelecido no form
 |id|Inteiro entre 0 e 500|142|Gera um número inteiro aleatório entre 0 e id-500|
 |random-float|Decimal entre 0 e 10|8.753240|Gera um número flutuante aleatório entre 0 e id-10|
 |boolean|Verdadeiro ou falso|True|Sem parâmetros|
+
+##### 4.1.2 Pessoa
+|Chave|Descrição|Exemplo|Parâmetros opcionais|
+|---|---|---|---|
+nome|Nome(homem por padrão)|Gabriel Leles|Gênero usando male ou female, name-male
+first-name|Nome(homem por padrão)|Gabriel Leles|Gênero usando male ou female, first_name-male
+last-name|Nome(homem por padrão|Lopes|Gênero usando male ou female, last_name-male
+middle-name|Nome(homem por padrão|Pires|Gênero usando male ou female, middle_name-male
+username|Nome de usuário|Gabriel-lpl|Sem parâmetros
+email|Endereço de email(domínio padrão loremock.com)|gabrielleles@loremock.com|domínio, email-gmail.com
+social-media|Link de conta de mídia social|https://facebook.com/gabrielleles.1042|Sites de mídia social, social_media-facebook, contas suportadas:facebook, instagram
+blood-type|Tipo sanguíneo|O+|Sem parâmetros
+job|Emprego|Engenheiro Civil|Sem parâmetro
+degree|Formação acadêmica|Doutorado|Sem parâmetro
+phone|Número de telefone|+1-(063)-278-5412|Formatar usando # para os dígitos, phone--(+#)-###-###
 
 #### 4.2 Modelo de Dados(?)
 
