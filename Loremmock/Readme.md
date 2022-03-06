@@ -1,6 +1,6 @@
 #  Mockend
 ## Documento de Design
-###### Versão 1.1
+###### Versão 1.2
 
 ### 1. Introdução
 Este projeto tem como objetivo apresentar um design baseando-se no serviço [Mockend](https://mockend.com/), seguindo seu escopo e funcionalidades.
@@ -8,7 +8,7 @@ Este projeto tem como objetivo apresentar um design baseando-se no serviço [Moc
 #### 1.1 Requisitos
 Os requisitos deste software é basicamente gerar uma API "fake" para o desenvolver testar o seu frontend. Mais informações sobre os requisitos podem ser encontrados no documento abaixo:
 
-[Requisitos](https://github.com/felipelagares/software-design-2021/tree/gustavomarques/mockfreend/requisitos)
+[Requisitos](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/requisitos)
 
 ### 2. Modelo
 Este design utiliza conceitos do [C4 Model](https://c4model.com/) para auxiliar na sua definição. Foi utilizado a criação do diagrama de contexto e do diagrama de contâiner.
@@ -23,7 +23,7 @@ Este design utiliza conceitos do [C4 Model](https://c4model.com/) para auxiliar 
 A arquitetura do software a ser desenvolvido será uma arquitetura híbrida e independente que
 une as principais características dos estilos arquiteturais: ​Camadas,​ Cliente-Servidor, REST, e ​prioriza os Atributos de qualidade: Segurança e Portabilidade. Consulte o documento abaixo para mais detalhes.
 
-[Arquitetura](https://github.com/felipelagares/software-design-2021/tree/gustavomarques/mockfreend/arquitetura)
+[Arquitetura](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/arquitetura)
 
 ### 4. Geração de Dados
 #### 4.1 Tipos de Dados Suportados
@@ -39,7 +39,7 @@ Alguns dados possuem parâmetros opcionais, o parâmetro é estabelecido no form
 ##### 4.1.2 Pessoa
 |Chave|Descrição|Exemplo|Parâmetros opcionais|
 |---|---|---|---|
-nome|Nome(homem por padrão)|Gabriel Leles|Gênero usando male ou female, name-male
+name|Nome(homem por padrão)|Gabriel Leles|Gênero usando male ou female, name-male
 first-name|Nome(homem por padrão)|Gabriel Leles|Gênero usando male ou female, first_name-male
 last-name|Nome(homem por padrão|Lopes|Gênero usando male ou female, last_name-male
 middle-name|Nome(homem por padrão|Pires|Gênero usando male ou female, middle_name-male
@@ -50,6 +50,33 @@ blood-type|Tipo sanguíneo|O+|Sem parâmetros
 job|Emprego|Engenheiro Civil|Sem parâmetro
 degree|Formação acadêmica|Doutorado|Sem parâmetro
 phone|Número de telefone|+1-(063)-278-5412|Formatar usando # para os dígitos, phone--(+#)-###-###
+
+##### 4.1.3 Endereço
+|Chave|Descrição|Exemplo|Parâmetros|
+|---|---|---|---|
+|address|Endereço|Rua Riachuelo|Sem parâmetros|
+|postal_code|CEP|69900-809|Sem parâmetros|
+|number|Número da casa, do prédio, do andar e do apartamento|768|Sem parâmetros|
+|neighbourhood|Bairro|José Augusto|Sem parâmetros|
+|city|Cidade|Rio Branco|Sem parâmetros|
+|state_code|Sigla do estado|AC|Sem parâmetros|
+|coordinates|Coordenadas|{'longitude':-9.96337570564154, 'latitude':-67.80888950056246}|Sem parâmetros|
+
+##### 4.1.4 Texto
+|Chave|Descrição|Exemplo|Parâmetros|
+|---|---|---|---|
+|text|Sentença|Isto é um exemplo de texto|número de sentenças, máx: 15|
+|word|Palavra|['Pneumoultramicroscopicossilicovulcanoconiótico']|número de palavras, máx:15|
+|quote|Citação aleatória|Não tenha medo de tentar nem se culpe quando fizer algo que não dê certo|Sem parâmetros|
+|lorem|Lorem Ipsum|Lorem ipsum dolor sit amet, consectetur adipiscing elit|número de palavras no lorem, máx:20|
+
+##### 4.1.5 Data
+|Chave|Descrição|Exemplo|Parâmetros|
+|---|---|---|---|
+|date|Data no formato YYYY-MM-DD|2022-03-06|Sem parâmetros|
+|time|Tempo no formato 24h|16:33:30|Sem parâmetros|
+|month|Mês|Março|Sem parâmetros|
+|year|Ano|2022|Sem parâmetros|
 
 #### 4.2 Modelo de Dados(?)
 

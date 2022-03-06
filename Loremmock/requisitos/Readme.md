@@ -3,7 +3,7 @@
 ###### Versão 1.0
 
 ### 1. Diagrama de Casos de Uso
-<img src="https://github.com/felipelagares/software-design-2021/blob/gustavomarques/mockfreend/imagens/Diagrama_de_Caso_de_Uso.png">
+<img src="https://github.com/felipelagares/software-design-2021/blob/dev/Loremmock/imagens/Diagrama_de_Caso_de_Uso.png">
 
 ### 2. Histórias de Usuário
 -US01: __Como__ desenvolvedor __quero__ gerar uma API "fake" __para__ ter uma prévia de como a minha será gerenciada
