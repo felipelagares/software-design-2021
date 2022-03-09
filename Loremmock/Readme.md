@@ -85,6 +85,15 @@ phone|Número de telefone|+1-(063)-278-5412|Formatar usando # para os dígitos, 
 |gráficos|modelo da placa de vídeo|NVIDIA GeForce MX150|Sem parâmetros|
 |modelo|modelo do hardware|Lenovo ideapad 330|Sem parâmetros|
 
+#### 4.1.7 Comida
+|Chave|Descrição|Exemplo|Parâmetros|
+|---|---|---|---|
+|fruta|nome de fruta|Goiaba|Sem parâmetros|
+|prato|nome da refeição|Feijão tropeiro|Sem parâmetros|
+|tempero|nome de um tempero ou especiaria|Pimenta do reino|Sem parâmetros|
+|vegetais|nome de verduras ou legumes|Couve|Sem parâmetros|
+|bebida|nome de bebida|Suco de tamarindo|Sem parâmetros|
+
 #### 4.2 Modelo de Dados(?)
 
 ### 5. Gestão de Usuários
