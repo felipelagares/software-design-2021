@@ -101,7 +101,7 @@ phone|Número de telefone|+1-(063)-278-5412|Formatar usando # para os dígitos, 
 |mime_type|MIME type|application/json|dependerá do tipo do arquivo. tipos disponiveis: application, audio, image, message, text, video|
 |filename|nome do arquivo|design.md|dependerá do tipo do arquivo. tipos disponiveis: source, text, data, audio, video, image, executable, compressed|
 
-##### 4.1.6 Negocios
+##### 4.1.9 Negocios
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |company|nome da empresa|Panificadora Alegria|Sem parâmetros|
