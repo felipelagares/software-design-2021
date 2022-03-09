@@ -78,6 +78,13 @@ phone|Número de telefone|+1-(063)-278-5412|Formatar usando # para os dígitos, 
 |month|Mês|Março|Sem parâmetros|
 |year|Ano|2022|Sem parâmetros|
 
+#### 4.1.6 Hardware
+|Chave|Descrição|Exemplo|Parâmetros|
+|---|---|---|---|
+|cpu|modelo de CPU|Intel Core I7-8550U|Sem parâmetros|
+|gráficos|modelo da placa de vídeo|NVIDIA GeForce MX150|Sem parâmetros|
+|modelo|modelo do hardware|Lenovo ideapad 330|Sem parâmetros|
+
 #### 4.2 Modelo de Dados(?)
 
 ### 5. Gestão de Usuários
