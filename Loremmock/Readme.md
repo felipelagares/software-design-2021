@@ -82,17 +82,24 @@ phone|Número de telefone|+1-(063)-278-5412|Formatar usando # para os dígitos, 
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |cpu|modelo de CPU|Intel Core I7-8550U|Sem parâmetros|
-|gráficos|modelo da placa de vídeo|NVIDIA GeForce MX150|Sem parâmetros|
-|modelo|modelo do hardware|Lenovo ideapad 330|Sem parâmetros|
+|graphic|modelo da placa de vídeo|NVIDIA GeForce MX150|Sem parâmetros|
+|model|modelo do hardware|Lenovo ideapad 330|Sem parâmetros|
 
 #### 4.1.7 Comida
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
-|fruta|nome de fruta|Goiaba|Sem parâmetros|
-|prato|nome da refeição|Feijão tropeiro|Sem parâmetros|
-|tempero|nome de um tempero ou especiaria|Pimenta do reino|Sem parâmetros|
-|vegetais|nome de verduras ou legumes|Couve|Sem parâmetros|
-|bebida|nome de bebida|Suco de tamarindo|Sem parâmetros|
+|fruit|nome de fruta|Goiaba|Sem parâmetros|
+|dish|nome da refeição|Feijão tropeiro|Sem parâmetros|
+|spice|nome de um tempero ou especiaria|Pimenta do reino|Sem parâmetros|
+|vegetable|nome de verduras ou legumes|Couve|Sem parâmetros|
+|drink|nome de bebida|Suco de tamarindo|Sem parâmetros|
+
+#### 4.1.8 Arquivo
+|Chave|Descrição|Exemplo|Parâmetros|
+|---|---|---|---|
+|extension|extensão do arquivo|.png|dependerá do tipo do arquivo. tipos disponiveis: source, text, data, audio, video, image, executable, compressed|
+|mime_type|MIME type|application/json|dependerá do tipo do arquivo. tipos disponiveis: application, audio, image, message, text, video|
+|filename|nome do arquivo|design.md|dependerá do tipo do arquivo. tipos disponiveis: source, text, data, audio, video, image, executable, compressed|
 
 #### 4.2 Modelo de Dados(?)
 
