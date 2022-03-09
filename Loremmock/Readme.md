@@ -109,7 +109,17 @@ phone|Número de telefone|+1-(063)-278-5412|Formatar usando # para os dígitos, 
 |copyright|copyright|© Mott's, LLP|Sem parâmetros|
 |company_catch_phrase|frase de  efeito/lema da empresa|Tecnologia intiutiva nossa especialidade|Sem parâmetros|
 |cryptocurrency|codigo da criptomoeda|ETH|Sem parâmetros|
-|cryptocurrency|codigo da moeda|BRL|Sem parâmetros|
+|currency|codigo da moeda|BRL|Sem parâmetros|
+
+##### 4.1.9 Pagamento
+|Chave|Descrição|Exemplo|Parâmetros|
+|---|---|---|---|
+|btc_adress|endereço bitcoin|1EvbUtfMRodWmHFiEhV2SkCAZFHkAcer33|Sem parâmetros|
+|eth_adress|endereço etherium|0x4d136b9C4d7229FEf5d09afCBDF609c29Ec2ca66|Sem parâmetros|
+|cc_network|marca do cartão de crédito|Inter|Sem parâmetros|
+|cc_vality|data de validade do cartão de crédito|07/22|Sem parâmetros|
+|cc_number|numero do cartão de crédito|4716 6347 0036 2497|bandeira do cartao, cc_number_visa, tipos disponiveis: mastercard, visa, elo|
+|cc_provider|bandeira do cartão de crédito|Elo|Sem parâmetros|
 
 #### 4.2 Modelo de Dados(?)
 
