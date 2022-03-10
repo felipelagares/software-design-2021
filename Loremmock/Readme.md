@@ -133,6 +133,13 @@ phone|Número de telefone|+1-(063)-278-5412|Formatar usando # para os dígitos, 
 |color|Cor|Sem Parâmetros|
 |language|pt|Sem Parâmetros|
 
+##### 4.1.12 Web
+|Chave|Descrição|Exemplo|Parâmetros|
+|---|---|---|---|
+|ipv4|endereço ipv4|9.151.218.226|Sem parâmetros|
+|ipv6|endereço ipv6|a865:90ef:b48d:ec88:a66c:758a:ed1e:5423|Sem parâmetros|
+|mac_adress|endereço mac|38:29:5a:85:45:8e|Sem parâmetros|
+
 #### 4.2 Modelo de Dados(?)
 
 ### 5. Gestão de Usuários
