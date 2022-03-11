@@ -127,11 +127,11 @@ phone|Número de telefone|+1-(063)-278-5412|Formatar usando # para os dígitos, 
 |uuid|UUID|13c2052e-e604-42d0-8c10-e9bb6d48fcfc|Sem parâmetros|
 |pin|código|9660|4 Digitos|
 |imei|Identificador de Dispositivo Movel|353258073166594|Sem parâmetros|
-|cor hexadecimal|Cor|6cfc7f|Sem Parâmetros|
+|hex_color|Cor|6cfc7f|Sem Parâmetros|
 |rgb_color|Cor em RGB|rgb(87, 229, 215)|Sem Parâmetros|
-|hsv_color|	Cor em HSV|hsv(14, 89, 67)|Sem Parâmetros|
-|color|Cor|Sem Parâmetros|
-|language|pt|Sem Parâmetros|
+|hsv_color|Cor em HSV|hsv(14, 89, 67)|Sem Parâmetros|
+|color|Cor|Vermelho|Sem Parâmetros|
+|language|Linguagem de programação|java|Sem Parâmetros|
 
 ##### 4.1.12 Web
 |Chave|Descrição|Exemplo|Parâmetros|
