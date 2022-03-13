@@ -64,15 +64,15 @@ phone|Número de telefone|+1-(063)-278-5412|Formatar usando # para os dígitos, 
 |state_code|Sigla do estado|AC|Sem parâmetros|
 |coordinates|Coordenadas|{'longitude':-9.96337570564154, 'latitude':-67.80888950056246}|Sem parâmetros|
 
-##### 3.1.4 Texto
+##### 3.1.4 [Texto](https://github.com/felipelagares/software-design-2021/tree/gustavomarques/Loremmock/geracao_de_dados/Texto.md)
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
-|text|Sentença|Isto é um exemplo de texto|número de sentenças, máx: 15|
-|word|Palavra|['Pneumoultramicroscopicossilicovulcanoconiótico']|número de palavras, máx:15|
+|text|Sentença|Isto é um exemplo de texto|número de sentenças, máx: 20|
+|word|Palavra|['Pneumoultramicroscopicossilicovulcanoconiótico']|número de palavras, máx:20|
 |quote|Citação aleatória|Não tenha medo de tentar nem se culpe quando fizer algo que não dê certo|Sem parâmetros|
 |lorem|Lorem Ipsum|Lorem ipsum dolor sit amet, consectetur adipiscing elit|número de palavras no lorem, máx:20|
 
-##### 3.1.5 Data
+##### 3.1.5 [Data](https://github.com/felipelagares/software-design-2021/tree/gustavomarques/Loremmock/geracao_de_dados/Data.md)
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |date|Data no formato YYYY-MM-DD|2022-03-06|Sem parâmetros|
