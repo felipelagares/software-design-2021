@@ -10,33 +10,33 @@ Os requisitos deste software é basicamente gerar uma API "fake" para o desenvol
 
 [Requisitos](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/requisitos)
 
-### 2. Modelo
-Este design utiliza conceitos do [C4 Model](https://c4model.com/) para auxiliar na sua definição. Foi utilizado a criação do diagrama de contexto e do diagrama de contâiner.
-
-#### 2.1 Diagrama de Contexto
-<img src="https://github.com/felipelagares/software-design-2021/blob/dev/Loremmock/imagens/Diagrama_de_Contexto.png">
-
-#### 2.2 Diagrama de Contâiner
-<img src="https://github.com/felipelagares/software-design-2021/blob/dev/Loremmock/imagens/Diagrama_de_Container.png">
-
-### 3. Arquitetura
+### 2. Arquitetura
 A arquitetura do software a ser desenvolvido será uma arquitetura híbrida e independente que
 une as principais características dos estilos arquiteturais: ​Camadas,​ Cliente-Servidor, REST, e ​prioriza os Atributos de qualidade: Segurança e Portabilidade. Consulte o documento abaixo para mais detalhes.
 
 [Arquitetura](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/arquitetura)
 
-### 4. Geração de Dados
-#### 4.1 Tipos de Dados Suportados
+#### 2.1 Modelo C4
+Este design utiliza conceitos do [C4 Model](https://c4model.com/) para auxiliar na sua definição. Foi utilizado a criação do diagrama de contexto e do diagrama de contâiner.
+
+##### 2.1.2 Diagrama de Contexto
+<img src="https://github.com/felipelagares/software-design-2021/blob/dev/Loremmock/imagens/Diagrama_de_Contexto.png">
+
+##### 2.1.2 Diagrama de Contâiner
+<img src="https://github.com/felipelagares/software-design-2021/blob/dev/Loremmock/imagens/Diagrama_de_Container.png">
+
+### 3. Geração de Dados
+#### 3.1 Tipos de Dados Suportados
 Alguns dados possuem parâmetros opcionais, o parâmetro é estabelecido no formato. O tipo de dados gera um número aleatório entre uma faixa de valores estabelecida previamente, por exemplo, se quero um número entre 0 e 10000 uso o formato tipodedados tipodedado{parâmetro} em que o parâmetro é id-0 e id-1000. O comando utilizado é datatypes datatype{id-1000}.
 
-##### 4.1.1 Números
+##### 3.1.1 Números
 |Chave|Descrição|Exemplo|Parâmetros opcionais|
 |---|---|---|---|
 |id|Inteiro entre 0 e 500|142|Gera um número inteiro aleatório entre 0 e id-500|
 |random-float|Decimal entre 0 e 10|8.753240|Gera um número flutuante aleatório entre 0 e id-10|
 |boolean|Verdadeiro ou falso|True|Sem parâmetros|
 
-##### 4.1.2 Pessoa
+##### 3.1.2 Pessoa
 |Chave|Descrição|Exemplo|Parâmetros opcionais|
 |---|---|---|---|
 name|Nome(homem por padrão)|Gabriel Leles|Gênero usando male ou female, name-male
@@ -51,7 +51,7 @@ job|Emprego|Engenheiro Civil|Sem parâmetro
 degree|Formação acadêmica|Doutorado|Sem parâmetro
 phone|Número de telefone|+1-(063)-278-5412|Formatar usando # para os dígitos, phone--(+#)-###-###
 
-##### 4.1.3 Endereço
+##### 3.1.3 Endereço
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |address|Endereço|Rua Riachuelo|Sem parâmetros|
@@ -62,7 +62,7 @@ phone|Número de telefone|+1-(063)-278-5412|Formatar usando # para os dígitos, 
 |state_code|Sigla do estado|AC|Sem parâmetros|
 |coordinates|Coordenadas|{'longitude':-9.96337570564154, 'latitude':-67.80888950056246}|Sem parâmetros|
 
-##### 4.1.4 Texto
+##### 3.1.4 Texto
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |text|Sentença|Isto é um exemplo de texto|número de sentenças, máx: 15|
@@ -70,7 +70,7 @@ phone|Número de telefone|+1-(063)-278-5412|Formatar usando # para os dígitos, 
 |quote|Citação aleatória|Não tenha medo de tentar nem se culpe quando fizer algo que não dê certo|Sem parâmetros|
 |lorem|Lorem Ipsum|Lorem ipsum dolor sit amet, consectetur adipiscing elit|número de palavras no lorem, máx:20|
 
-##### 4.1.5 Data
+##### 3.1.5 Data
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |date|Data no formato YYYY-MM-DD|2022-03-06|Sem parâmetros|
@@ -78,14 +78,14 @@ phone|Número de telefone|+1-(063)-278-5412|Formatar usando # para os dígitos, 
 |month|Mês|Março|Sem parâmetros|
 |year|Ano|2022|Sem parâmetros|
 
-#### 4.1.6 Hardware
+#### 3.1.6 Hardware
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |cpu|modelo de CPU|Intel Core I7-8550U|Sem parâmetros|
 |graphic|modelo da placa de vídeo|NVIDIA GeForce MX150|Sem parâmetros|
 |model|modelo do hardware|Lenovo ideapad 330|Sem parâmetros|
 
-#### 4.1.7 Comida
+#### 3.1.7 Comida
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |fruit|nome de fruta|Goiaba|Sem parâmetros|
@@ -94,14 +94,14 @@ phone|Número de telefone|+1-(063)-278-5412|Formatar usando # para os dígitos, 
 |vegetable|nome de verduras ou legumes|Couve|Sem parâmetros|
 |drink|nome de bebida|Suco de tamarindo|Sem parâmetros|
 
-#### 4.1.8 Arquivo
+#### 3.1.8 Arquivo
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |extension|extensão do arquivo|.png|dependerá do tipo do arquivo. tipos disponiveis: source, text, data, audio, video, image, executable, compressed|
 |mime_type|MIME type|application/json|dependerá do tipo do arquivo. tipos disponiveis: application, audio, image, message, text, video|
 |filename|nome do arquivo|design.md|dependerá do tipo do arquivo. tipos disponiveis: source, text, data, audio, video, image, executable, compressed|
 
-##### 4.1.9 Negocios
+##### 3.1.9 Negocios
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |company|nome da empresa|Panificadora Alegria|Sem parâmetros|
@@ -111,7 +111,7 @@ phone|Número de telefone|+1-(063)-278-5412|Formatar usando # para os dígitos, 
 |cryptocurrency|codigo da criptomoeda|ETH|Sem parâmetros|
 |currency|codigo da moeda|BRL|Sem parâmetros|
 
-##### 4.1.10 Pagamento
+##### 3.1.10 Pagamento
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |btc_adress|endereço bitcoin|1EvbUtfMRodWmHFiEhV2SkCAZFHkAcer33|Sem parâmetros|
@@ -121,7 +121,7 @@ phone|Número de telefone|+1-(063)-278-5412|Formatar usando # para os dígitos, 
 |cc_number|numero do cartão de crédito|4716 6347 0036 2497|bandeira do cartao, cc_number_visa, tipos disponiveis: mastercard, visa, elo|
 |cc_provider|bandeira do cartão de crédito|Elo|Sem parâmetros|
 
-##### 4.1.11 Códigos
+##### 3.1.11 Códigos
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |uuid|UUID|13c2052e-e604-42d0-8c10-e9bb6d48fcfc|Sem parâmetros|
@@ -133,19 +133,19 @@ phone|Número de telefone|+1-(063)-278-5412|Formatar usando # para os dígitos, 
 |color|Cor|Vermelho|Sem Parâmetros|
 |language|Linguagem de programação|java|Sem Parâmetros|
 
-##### 4.1.12 Web
+##### 3.1.12 Web
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |ipv4|endereço ipv4|9.151.218.226|Sem parâmetros|
 |ipv6|endereço ipv6|a865:90ef:b48d:ec88:a66c:758a:ed1e:5423|Sem parâmetros|
 |mac_adress|endereço mac|38:29:5a:85:45:8e|Sem parâmetros|
 
-#### 4.2 Modelo de Dados(?)
+#### 3.2 Modelo de Dados(?)
 
-### 5. Gestão de Usuários
-#### 5.1 Interface
+### 4. Gestão de Usuários
+#### 4.1 Interface
 
-#### 5.2 Persisntência de Dados dos Usuários
+#### 4.2 Persisntência de Dados dos Usuários
 
-### 6. Protótipos
+### 5. Protótipos
 << colocar umas imagens de exemplo>>
