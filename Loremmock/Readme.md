@@ -14,10 +14,10 @@ Os requisitos deste software é basicamente gerar uma API "fake" para o desenvol
 Este design utiliza conceitos do [C4 Model](https://c4model.com/) para auxiliar na sua definição. Foi utilizado a criação do diagrama de contexto e do diagrama de contâiner.
 
 #### 2.1 Diagrama de Contexto
-<img src="https://github.com/felipelagares/software-design-2021/blob/gustavomarques/mockfreend/imagens/Diagrama_de_Contexto.png">
+<img src="https://github.com/felipelagares/software-design-2021/blob/dev/Loremmock/imagens/Diagrama_de_Contexto.png">
 
 #### 2.2 Diagrama de Contâiner
-<img src="https://github.com/felipelagares/software-design-2021/blob/gustavomarques/mockfreend/imagens/Diagrama_de_Container.png">
+<img src="https://github.com/felipelagares/software-design-2021/blob/dev/Loremmock/imagens/Diagrama_de_Container.png">
 
 ### 3. Arquitetura
 A arquitetura do software a ser desenvolvido será uma arquitetura híbrida e independente que
@@ -77,6 +77,68 @@ phone|Número de telefone|+1-(063)-278-5412|Formatar usando # para os dígitos, 
 |time|Tempo no formato 24h|16:33:30|Sem parâmetros|
 |month|Mês|Março|Sem parâmetros|
 |year|Ano|2022|Sem parâmetros|
+
+#### 4.1.6 Hardware
+|Chave|Descrição|Exemplo|Parâmetros|
+|---|---|---|---|
+|cpu|modelo de CPU|Intel Core I7-8550U|Sem parâmetros|
+|graphic|modelo da placa de vídeo|NVIDIA GeForce MX150|Sem parâmetros|
+|model|modelo do hardware|Lenovo ideapad 330|Sem parâmetros|
+
+#### 4.1.7 Comida
+|Chave|Descrição|Exemplo|Parâmetros|
+|---|---|---|---|
+|fruit|nome de fruta|Goiaba|Sem parâmetros|
+|dish|nome da refeição|Feijão tropeiro|Sem parâmetros|
+|spice|nome de um tempero ou especiaria|Pimenta do reino|Sem parâmetros|
+|vegetable|nome de verduras ou legumes|Couve|Sem parâmetros|
+|drink|nome de bebida|Suco de tamarindo|Sem parâmetros|
+
+#### 4.1.8 Arquivo
+|Chave|Descrição|Exemplo|Parâmetros|
+|---|---|---|---|
+|extension|extensão do arquivo|.png|dependerá do tipo do arquivo. tipos disponiveis: source, text, data, audio, video, image, executable, compressed|
+|mime_type|MIME type|application/json|dependerá do tipo do arquivo. tipos disponiveis: application, audio, image, message, text, video|
+|filename|nome do arquivo|design.md|dependerá do tipo do arquivo. tipos disponiveis: source, text, data, audio, video, image, executable, compressed|
+
+##### 4.1.9 Negocios
+|Chave|Descrição|Exemplo|Parâmetros|
+|---|---|---|---|
+|company|nome da empresa|Panificadora Alegria|Sem parâmetros|
+|company_type|tipo da empresa|Microempresa|Sem parâmetros|
+|copyright|copyright|© Mott's, LLP|Sem parâmetros|
+|company_catch_phrase|frase de  efeito/lema da empresa|Tecnologia intiutiva nossa especialidade|Sem parâmetros|
+|cryptocurrency|codigo da criptomoeda|ETH|Sem parâmetros|
+|currency|codigo da moeda|BRL|Sem parâmetros|
+
+##### 4.1.10 Pagamento
+|Chave|Descrição|Exemplo|Parâmetros|
+|---|---|---|---|
+|btc_adress|endereço bitcoin|1EvbUtfMRodWmHFiEhV2SkCAZFHkAcer33|Sem parâmetros|
+|eth_adress|endereço etherium|0x4d136b9C4d7229FEf5d09afCBDF609c29Ec2ca66|Sem parâmetros|
+|cc_network|marca do cartão de crédito|Inter|Sem parâmetros|
+|cc_vality|data de validade do cartão de crédito|07/22|Sem parâmetros|
+|cc_number|numero do cartão de crédito|4716 6347 0036 2497|bandeira do cartao, cc_number_visa, tipos disponiveis: mastercard, visa, elo|
+|cc_provider|bandeira do cartão de crédito|Elo|Sem parâmetros|
+
+##### 4.1.11 Códigos
+|Chave|Descrição|Exemplo|Parâmetros|
+|---|---|---|---|
+|uuid|UUID|13c2052e-e604-42d0-8c10-e9bb6d48fcfc|Sem parâmetros|
+|pin|código|9660|4 Digitos|
+|imei|Identificador de Dispositivo Movel|353258073166594|Sem parâmetros|
+|hex_color|Cor|6cfc7f|Sem Parâmetros|
+|rgb_color|Cor em RGB|rgb(87, 229, 215)|Sem Parâmetros|
+|hsv_color|Cor em HSV|hsv(14, 89, 67)|Sem Parâmetros|
+|color|Cor|Vermelho|Sem Parâmetros|
+|language|Linguagem de programação|java|Sem Parâmetros|
+
+##### 4.1.12 Web
+|Chave|Descrição|Exemplo|Parâmetros|
+|---|---|---|---|
+|ipv4|endereço ipv4|9.151.218.226|Sem parâmetros|
+|ipv6|endereço ipv6|a865:90ef:b48d:ec88:a66c:758a:ed1e:5423|Sem parâmetros|
+|mac_adress|endereço mac|38:29:5a:85:45:8e|Sem parâmetros|
 
 #### 4.2 Modelo de Dados(?)
 
