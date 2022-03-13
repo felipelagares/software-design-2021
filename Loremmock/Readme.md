@@ -51,12 +51,14 @@ job|Emprego|Engenheiro Civil|Sem parâmetro
 degree|Formação acadêmica|Doutorado|Sem parâmetro
 phone|Número de telefone|+1-(063)-278-5412|Formatar usando # para os dígitos, phone--(+#)-###-###
 
-##### 3.1.3 Endereço
+##### 3.1.3 [Endereço](https://github.com/felipelagares/software-design-2021/tree/gustavomarques/Loremmock/geracao_de_dados/Endereco.md)
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |address|Endereço|Rua Riachuelo|Sem parâmetros|
 |postal_code|CEP|69900-809|Sem parâmetros|
-|number|Número da casa, do prédio, do andar e do apartamento|768|Sem parâmetros|
+|number|Número da casa, do prédio|768|Sem parâmetros|
+|floor_number|Número do andar de um prédio|10|Sem parâmetros|
+|apartment_number|Número do apartamento de um prédio|1003|Sem parâmentros|
 |neighbourhood|Bairro|José Augusto|Sem parâmetros|
 |city|Cidade|Rio Branco|Sem parâmetros|
 |state_code|Sigla do estado|AC|Sem parâmetros|
