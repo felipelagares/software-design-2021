@@ -1,0 +1,6 @@
+1. O nome de pessoa gerado pela chave name será um nome aleatório entre nomes cadastrados em bases de dados separadas por países. Por padrão o nome gerado será masculino, a menos que o usuário defina que quer um nome feminino.
+2. O nome de pessoa gerado pela chave first-name será um primeiro nome aleatório entre primeiros nomes cadastrados em bases de dados separadas por países. Por padrão o primeiro nome gerado será masculino, a menos que o usuário defina que quer um nome feminino.
+3. O nome de pessoa gerado pela chave last-name será um último nome aleatório entre últimos nomes cadastrados em bases de dados separadas por países.
+4. O nome de pessoa gerado pela chave middle-name será um nome do meio aleatório entre nomes do meio cadastrados em bases de dados separadas por países.
+5. O nome de usuário gerado pela chave username será um nome aleatório de acordo com critérios estabelecidos pelo usuário, como o número de letras, se é fácil de pronunciar ou ler(pode até ser ambos), se usa letras maiúsculas, letras minúsculas, números e caracteres especiais.
+6. O endereço de email gerado pela chave email será um email aleatório de acordo com critérios estabelecidos pelo usuário como o domínio, se deve ter números, letras maiúsculas ou letras minúsculas e caracteres especiais. 
