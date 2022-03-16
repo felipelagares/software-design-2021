@@ -34,7 +34,7 @@ Alguns dados são complexos demais, portanto tem um hiperlink em sua categoria, 
 |---|---|---|---|
 |id|Inteiro entre 0 e 500|142|**rep** - Quantos valores diferentes serão gerados;**min** - O valor minimo do numero a ser gerado(Deve ser maior que 0);**max** - O numero maximo a ser gerado(Deve ser menor que 500);|
 |random-float|Decimal entre 0 e 10|8.753240|**rep** - Quantos valores diferentes serão gerados;**min** - O valor minimo do numero a ser gerado(Deve ser maior que 0);**max** - O numero maximo a ser gerado(Deve ser menor que 10);|
-|boolean|Verdadeiro ou falso|True|rep - Quantos valores diferentes serão gerados|
+|boolean|Verdadeiro ou falso|True|**rep** - Quantos valores diferentes serão gerados|
 
 ##### 3.1.2 Pessoa
 |Chave|Descrição|Exemplo|Parâmetros opcionais|
