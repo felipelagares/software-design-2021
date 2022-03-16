@@ -27,14 +27,14 @@ Este design utiliza conceitos do [C4 Model](https://c4model.com/) para auxiliar 
 
 ### 3. Geração de Dados
 #### 3.1 Tipos de Dados Suportados
-Alguns dados possuem parâmetros opcionais, o parâmetro é estabelecido no formato. O tipo de dados gera um número aleatório entre uma faixa de valores estabelecida previamente, por exemplo, se quero um número entre 0 e 10000 uso o formato tipodedados tipodedado{parâmetro} em que o parâmetro é id-0 e id-1000. O comando utilizado é datatypes datatype{id-1000}.
+Alguns dados são complexos demais, portanto tem um hiperlink em sua categoria, que descreve com detalhes como gerar essas valores, todos os tipos de dados possuem parametros opcionais, que permitem o usuario escolher mais precisamente como o dado sera gerado, como por exemplo o id tem como parametro rep, min e max, sendo rep quantos id serão gerados, min seria o valor minimo do id e maximo o valor maximo do id, enquanto respeita o minimo absoluto de 0 e o maximo absoluto de 500.
 
 ##### 3.1.1 Números
 |Chave|Descrição|Exemplo|Parâmetros opcionais|
 |---|---|---|---|
-|id|Inteiro entre 0 e 500|142|Gera um número inteiro aleatório entre 0 e id-500|
-|random-float|Decimal entre 0 e 10|8.753240|Gera um número flutuante aleatório entre 0 e id-10|
-|boolean|Verdadeiro ou falso|True|Sem parâmetros|
+|id|Inteiro entre 0 e 500|142|rep - Quantos valores diferentes serão gerados;min - O valor minimo do numero a ser gerado(Deve ser maior que 0);max - O numero maximo a ser gerado(Deve ser menor que 500);|
+|random-float|Decimal entre 0 e 10|8.753240|rep - Quantos valores diferentes serão gerados;min - O valor minimo do numero a ser gerado(Deve ser maior que 0);max - O numero maximo a ser gerado(Deve ser menor que 10);|
+|boolean|Verdadeiro ou falso|True|rep - Quantos valores diferentes serão gerados|
 
 ##### 3.1.2 Pessoa
 |Chave|Descrição|Exemplo|Parâmetros opcionais|
