@@ -49,20 +49,20 @@ social-media|Link de conta de mídia social|https://facebook.com/gabrielleles.10
 blood-type|Tipo sanguíneo|O+|rep - Quantos valores diferentes serão gerados|
 job|Emprego|Engenheiro Civil|rep - Quantos valores diferentes serão gerados|
 degree|Formação acadêmica|Doutorado|rep - Quantos valores diferentes serão gerados|
-phone|Número de telefone|+1-(063)-278-5412|rep - Quantos valores diferentes serão gerados;phone- Escolhe a formatação do numero, usando # para os dígitos "(+#)-###-####"
+phone|Número de telefone|+1-(063)-278-5412|rep - Quantos valores diferentes serão gerados;phone- Escolhe a formatação do numero, usando # para os dígitos como por exemplo: "(+#)-###-####"|
 
 ##### 3.1.3 [Endereço](https://github.com/felipelagares/software-design-2021/tree/gustavomarques/Loremmock/geracao_de_dados/Endereco.md)
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
-|address|Endereço|Rua Riachuelo|Sem parâmetros|
-|postal_code|CEP|69900-809|Sem parâmetros|
-|number|Número da casa, do prédio|768|Sem parâmetros|
-|floor_number|Número do andar de um prédio|10|Sem parâmetros|
-|apartment_number|Número do apartamento de um prédio|1003|Sem parâmentros|
-|neighbourhood|Bairro|José Augusto|Sem parâmetros|
-|city|Cidade|Rio Branco|Sem parâmetros|
-|state_code|Sigla do estado|AC|Sem parâmetros|
-|coordinates|Coordenadas|{'longitude':-9.96337570564154, 'latitude':-67.80888950056246}|Sem parâmetros|
+|address|Endereço|Rua Riachuelo|rep - Quantos valores diferentes serão gerados|
+|postal_code|CEP|69900-809|rep - Quantos valores diferentes serão gerados|
+|number|Número da casa, do prédio|768|rep - Quantos valores diferentes serão gerados|
+|floor_number|Número do andar de um prédio|10|rep - Quantos valores diferentes serão gerados|
+|apartment_number|Número do apartamento de um prédio|1003|rep - Quantos valores diferentes serão gerados|
+|neighbourhood|Bairro|José Augusto|rep - Quantos valores diferentes serão gerados|
+|city|Cidade|Rio Branco|rep - Quantos valores diferentes serão gerados|
+|state_code|Sigla do estado|AC|rep - Quantos valores diferentes serão gerados|
+|coordinates|Coordenadas|{'longitude':-9.96337570564154, 'latitude':-67.80888950056246}|rep - Quantos valores diferentes serão gerados|
 
 ##### 3.1.4 [Texto](https://github.com/felipelagares/software-design-2021/tree/gustavomarques/Loremmock/geracao_de_dados/Texto.md)
 |Chave|Descrição|Exemplo|Parâmetros|
