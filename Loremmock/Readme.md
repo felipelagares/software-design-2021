@@ -29,7 +29,7 @@ Este design utiliza conceitos do [C4 Model](https://c4model.com/) para auxiliar 
 #### 3.1 Tipos de Dados Suportados
 Alguns dados são complexos demais, portanto tem um hiperlink em sua categoria, que descreve com detalhes como gerar essas valores, todos os tipos de dados possuem parametros opcionais, que permitem o usuario escolher mais precisamente como o dado sera gerado, como por exemplo o id tem como parametro **rep**, **min** e **max**, sendo **rep** quantos id serão gerados(por padrão 1), **min** seria o valor minimo do id e o **max** o valor maximo do id, enquanto respeita o minimo absoluto de 0 e o maximo absoluto de 500. Esse parametros estarão em negrito.
 
-##### 3.1.1 Números
+##### 3.1.1 [Números](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Numeros.md)
 |Chave|Descrição|Exemplo|Parâmetros opcionais|
 |---|---|---|---|
 |id|Inteiro entre 0 e 500|142|**rep** - Quantos valores diferentes serão gerados;**min** - O valor minimo do numero a ser gerado(Deve ser maior que 0);**max** - O numero maximo a ser gerado(Deve ser menor que 500);|
