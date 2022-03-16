@@ -27,42 +27,42 @@ Este design utiliza conceitos do [C4 Model](https://c4model.com/) para auxiliar 
 
 ### 3. Geração de Dados
 #### 3.1 Tipos de Dados Suportados
-Alguns dados são complexos demais, portanto tem um hiperlink em sua categoria, que descreve com detalhes como gerar essas valores, todos os tipos de dados possuem parametros opcionais, que permitem o usuario escolher mais precisamente como o dado sera gerado, como por exemplo o id tem como parametro rep, min e max, sendo rep quantos id serão gerados, min seria o valor minimo do id e maximo o valor maximo do id, enquanto respeita o minimo absoluto de 0 e o maximo absoluto de 500.
+Alguns dados são complexos demais, portanto tem um hiperlink em sua categoria, que descreve com detalhes como gerar essas valores, todos os tipos de dados possuem parametros opcionais, que permitem o usuario escolher mais precisamente como o dado sera gerado, como por exemplo o id tem como parametro **rep**, **min** e **max**, sendo **rep** quantos id serão gerados(por padrão 1), **min** seria o valor minimo do id e o **max** o valor maximo do id, enquanto respeita o minimo absoluto de 0 e o maximo absoluto de 500. Esse parametros estarão em negrito.
 
 ##### 3.1.1 Números
 |Chave|Descrição|Exemplo|Parâmetros opcionais|
 |---|---|---|---|
-|id|Inteiro entre 0 e 500|142|rep - Quantos valores diferentes serão gerados;min - O valor minimo do numero a ser gerado(Deve ser maior que 0);max - O numero maximo a ser gerado(Deve ser menor que 500);|
-|random-float|Decimal entre 0 e 10|8.753240|rep - Quantos valores diferentes serão gerados;min - O valor minimo do numero a ser gerado(Deve ser maior que 0);max - O numero maximo a ser gerado(Deve ser menor que 10);|
+|id|Inteiro entre 0 e 500|142|**rep** - Quantos valores diferentes serão gerados;**min** - O valor minimo do numero a ser gerado(Deve ser maior que 0);**max** - O numero maximo a ser gerado(Deve ser menor que 500);|
+|random-float|Decimal entre 0 e 10|8.753240|**rep** - Quantos valores diferentes serão gerados;**min** - O valor minimo do numero a ser gerado(Deve ser maior que 0);**max** - O numero maximo a ser gerado(Deve ser menor que 10);|
 |boolean|Verdadeiro ou falso|True|rep - Quantos valores diferentes serão gerados|
 
 ##### 3.1.2 Pessoa
 |Chave|Descrição|Exemplo|Parâmetros opcionais|
 |---|---|---|---|
-name|Nome(homem por padrão)|Gabriel Leles|rep - Quantos valores diferentes serão gerados;name - Genero do nome, só aceita "male" e "female" como valores|
-first-name|Nome(homem por padrão)|Gabriel Leles|rep - Quantos valores diferentes serão gerados;name - Genero do nome, só aceita "male" e "female" como valores|
-last-name|Nome(homem por padrão|Lopes|rep - Quantos valores diferentes serão gerados;name - Genero do nome, só aceita "male" e "female" como valores|
-middle-name|Nome(homem por padrão|Pires|rep - Quantos valores diferentes serão gerados;name - Genero do nome, só aceita "male" e "female" como valores|
-username|Nome de usuário|Gabriel-lpl|rep - Quantos valores diferentes serão gerados|
-email|Endereço de email(domínio padrão loremock.com)|gabrielleles@loremock.com|rep - Quantos valores diferentes serão gerados;dominio - dominio do email, como "gmail.com"|
-social-media|Link de conta de mídia social|https://facebook.com/gabrielleles.1042|rep - Quantos valores diferentes serão gerados;midia - Rede social gerado, aceita como valores "facebook" e "instagram"|
-blood-type|Tipo sanguíneo|O+|rep - Quantos valores diferentes serão gerados|
-job|Emprego|Engenheiro Civil|rep - Quantos valores diferentes serão gerados|
-degree|Formação acadêmica|Doutorado|rep - Quantos valores diferentes serão gerados|
-phone|Número de telefone|+1-(063)-278-5412|rep - Quantos valores diferentes serão gerados;phone- Escolhe a formatação do numero, usando # para os dígitos como por exemplo: "(+#)-###-####"|
+name|Nome(homem por padrão)|Gabriel Leles|**rep** - Quantos valores diferentes serão gerados;**gender** - Genero do nome, só aceita "male" e "female" como valores|
+first-name|Nome(homem por padrão)|Gabriel Leles|**rep** - Quantos valores diferentes serão gerados;**gender** - Genero do nome, só aceita "male" e "female" como valores|
+last-name|Nome(homem por padrão|Lopes|**rep** - Quantos valores diferentes serão gerados;**gender** - Genero do nome, só aceita "male" e "female" como valores|
+middle-name|Nome(homem por padrão|Pires|**rep** - Quantos valores diferentes serão gerados;**gender** - Genero do nome, só aceita "male" e "female" como valores|
+username|Nome de usuário|Gabriel-lpl|**rep** - Quantos valores diferentes serão gerados|
+email|Endereço de email(domínio padrão loremock.com)|gabrielleles@loremock.com|**rep** - Quantos valores diferentes serão gerados;**dominio** - dominio do email, como "gmail.com"|
+social-media|Link de conta de mídia social|https://facebook.com/gabrielleles.1042|**rep** - Quantos valores diferentes serão gerados;**midia** - Rede social gerado, aceita como valores "facebook" e "instagram"|
+blood-type|Tipo sanguíneo|O+|**rep** - Quantos valores diferentes serão gerados|
+job|Emprego|Engenheiro Civil|**rep** - Quantos valores diferentes serão gerados|
+degree|Formação acadêmica|Doutorado|**rep** - Quantos valores diferentes serão gerados|
+phone|Número de telefone|+1-(063)-278-5412|**rep** - Quantos valores diferentes serão gerados;**format**- Escolhe a formatação do numero, usando # para os dígitos como por exemplo: "(+#)-###-####"|
 
 ##### 3.1.3 [Endereço](https://github.com/felipelagares/software-design-2021/tree/gustavomarques/Loremmock/geracao_de_dados/Endereco.md)
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
-|address|Endereço|Rua Riachuelo|rep - Quantos valores diferentes serão gerados|
-|postal_code|CEP|69900-809|rep - Quantos valores diferentes serão gerados|
-|number|Número da casa, do prédio|768|rep - Quantos valores diferentes serão gerados|
-|floor_number|Número do andar de um prédio|10|rep - Quantos valores diferentes serão gerados|
-|apartment_number|Número do apartamento de um prédio|1003|rep - Quantos valores diferentes serão gerados|
-|neighbourhood|Bairro|José Augusto|rep - Quantos valores diferentes serão gerados|
-|city|Cidade|Rio Branco|rep - Quantos valores diferentes serão gerados|
-|state_code|Sigla do estado|AC|rep - Quantos valores diferentes serão gerados|
-|coordinates|Coordenadas|{'longitude':-9.96337570564154, 'latitude':-67.80888950056246}|rep - Quantos valores diferentes serão gerados|
+|address|Endereço|Rua Riachuelo|**rep** - Quantos valores diferentes serão gerados|
+|postal_code|CEP|69900-809|**rep** - Quantos valores diferentes serão gerados|
+|number|Número da casa, do prédio|768|**rep** - Quantos valores diferentes serão gerados|
+|floor_number|Número do andar de um prédio|10|**rep** - Quantos valores diferentes serão gerados|
+|apartment_number|Número do apartamento de um prédio|1003|**rep** - Quantos valores diferentes serão gerados|
+|neighbourhood|Bairro|José Augusto|**rep** - Quantos valores diferentes serão gerados|
+|city|Cidade|Rio Branco|**rep** - Quantos valores diferentes serão gerados|
+|state_code|Sigla do estado|AC|**rep** - Quantos valores diferentes serão gerados|
+|coordinates|Coordenadas|{'longitude':-9.96337570564154, 'latitude':-67.80888950056246}|**rep** - Quantos valores diferentes serão gerados|
 
 ##### 3.1.4 [Texto](https://github.com/felipelagares/software-design-2021/tree/gustavomarques/Loremmock/geracao_de_dados/Texto.md)
 |Chave|Descrição|Exemplo|Parâmetros|
