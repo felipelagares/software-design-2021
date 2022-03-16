@@ -135,7 +135,7 @@ phone|Número de telefone|+1-(063)-278-5412|**rep** - Quantos valores diferentes
 |color|Cor|Vermelho|**rep** - Quantos valores diferentes serão gerados|
 |language|Linguagem de programação|java|**rep** - Quantos valores diferentes serão gerados|
 
-##### 3.1.12 Web
+##### 3.1.12 [Web](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Web.md)
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |ipv4|endereço ipv4|9.151.218.226|**rep** - Quantos valores diferentes serão gerados|
