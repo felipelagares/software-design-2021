@@ -96,7 +96,7 @@ phone|Número de telefone|+1-(063)-278-5412|**rep** - Quantos valores diferentes
 |vegetable|nome de verduras ou legumes|Couve|Sem parâmetros|
 |drink|nome de bebida|Suco de tamarindo|Sem parâmetros|
 
-#### 3.1.8 [Arquivo](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Endereco.md)
+#### 3.1.8 [Arquivo](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Arquivo.md)
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |extension|extensão do arquivo|.png|dependerá do tipo do arquivo. tipos disponiveis: source, text, data, audio, video, image, executable, compressed|
