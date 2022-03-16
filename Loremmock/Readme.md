@@ -39,17 +39,17 @@ Alguns dados são complexos demais, portanto tem um hiperlink em sua categoria, 
 ##### 3.1.2 Pessoa
 |Chave|Descrição|Exemplo|Parâmetros opcionais|
 |---|---|---|---|
-name|Nome(homem por padrão)|Gabriel Leles|Gênero usando male ou female, name-male
-first-name|Nome(homem por padrão)|Gabriel Leles|Gênero usando male ou female, first_name-male
-last-name|Nome(homem por padrão|Lopes|Gênero usando male ou female, last_name-male
-middle-name|Nome(homem por padrão|Pires|Gênero usando male ou female, middle_name-male
-username|Nome de usuário|Gabriel-lpl|Sem parâmetros
-email|Endereço de email(domínio padrão loremock.com)|gabrielleles@loremock.com|domínio, email-gmail.com
-social-media|Link de conta de mídia social|https://facebook.com/gabrielleles.1042|Sites de mídia social, social_media-facebook, contas suportadas:facebook, instagram
-blood-type|Tipo sanguíneo|O+|Sem parâmetros
-job|Emprego|Engenheiro Civil|Sem parâmetro
-degree|Formação acadêmica|Doutorado|Sem parâmetro
-phone|Número de telefone|+1-(063)-278-5412|Formatar usando # para os dígitos, phone--(+#)-###-###
+name|Nome(homem por padrão)|Gabriel Leles|rep - Quantos valores diferentes serão gerados;name - Genero do nome, só aceita "male" e "female" como valores|
+first-name|Nome(homem por padrão)|Gabriel Leles|rep - Quantos valores diferentes serão gerados;name - Genero do nome, só aceita "male" e "female" como valores|
+last-name|Nome(homem por padrão|Lopes|rep - Quantos valores diferentes serão gerados;name - Genero do nome, só aceita "male" e "female" como valores|
+middle-name|Nome(homem por padrão|Pires|rep - Quantos valores diferentes serão gerados;name - Genero do nome, só aceita "male" e "female" como valores|
+username|Nome de usuário|Gabriel-lpl|rep - Quantos valores diferentes serão gerados|
+email|Endereço de email(domínio padrão loremock.com)|gabrielleles@loremock.com|rep - Quantos valores diferentes serão gerados;dominio - dominio do email, como "gmail.com"|
+social-media|Link de conta de mídia social|https://facebook.com/gabrielleles.1042|rep - Quantos valores diferentes serão gerados;midia - Rede social gerado, aceita como valores "facebook" e "instagram"|
+blood-type|Tipo sanguíneo|O+|rep - Quantos valores diferentes serão gerados|
+job|Emprego|Engenheiro Civil|rep - Quantos valores diferentes serão gerados|
+degree|Formação acadêmica|Doutorado|rep - Quantos valores diferentes serão gerados|
+phone|Número de telefone|+1-(063)-278-5412|rep - Quantos valores diferentes serão gerados;phone- Escolhe a formatação do numero, usando # para os dígitos "(+#)-###-####"
 
 ##### 3.1.3 [Endereço](https://github.com/felipelagares/software-design-2021/tree/gustavomarques/Loremmock/geracao_de_dados/Endereco.md)
 |Chave|Descrição|Exemplo|Parâmetros|
