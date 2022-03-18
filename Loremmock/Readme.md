@@ -80,7 +80,7 @@ phone|Número de telefone|+1-(063)-278-5412|**rep** - Quantos valores diferentes
 |month|Mês|Março|**rep** - Quantos valores diferentes serão gerados|
 |year|Ano|2022|**rep** - Quantos valores diferentes serão gerados|
 
-#### 3.1.6 Hardware
+#### 3.1.6 [Hardware](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Hardware.md)
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |cpu|modelo de CPU|Intel Core I7-8550U|**rep** - Quantos valores diferentes serão gerados|

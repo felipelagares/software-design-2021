@@ -1,0 +1,1 @@
+provavelmente a unica maneira de ter acesso a uma grande variedade de modelos é fazendo scrapping de modelos dos sites das empresas ou criando manualmente um repositório com modelos "suficientes". A partir dos modelos os outros dois componentes que o constituem ficarão claros para serem exibidos. 
