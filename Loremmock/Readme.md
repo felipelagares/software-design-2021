@@ -87,7 +87,7 @@ phone|Número de telefone|+1-(063)-278-5412|**rep** - Quantos valores diferentes
 |graphic|modelo da placa de vídeo|NVIDIA GeForce MX150|**rep** - Quantos valores diferentes serão gerados|
 |model|modelo do hardware|Lenovo ideapad 330|**rep** - Quantos valores diferentes serão gerados|
 
-#### 3.1.7 Comida
+#### 3.1.7 [Comida](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Comida.md)
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |fruit|nome de fruta|Goiaba|**rep** - Quantos valores diferentes serão gerados|
