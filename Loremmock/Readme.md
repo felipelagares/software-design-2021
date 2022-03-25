@@ -6,7 +6,7 @@
 Este projeto tem como objetivo apresentar um design baseando-se no serviço [Mockend](https://mockend.com/), seguindo seu escopo e funcionalidades.
 
 #### 1.1 Requisitos
-Os requisitos deste software é basicamente gerar uma API "fake" para o desenvolver testar o seu frontend. Será desenvolvido na linguagem Java e Mmis informações sobre os requisitos podem ser encontrados no documento abaixo:
+Os requisitos deste software é basicamente gerar uma API "fake" para o desenvolver testar o seu frontend. Será desenvolvido na linguagem Java e mais informações sobre os requisitos podem ser encontrados no documento abaixo:
 
 [Requisitos](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/requisitos)
 
