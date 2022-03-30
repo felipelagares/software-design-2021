@@ -1,1 +1,6 @@
-Os nomes devem ser armazenados e selecionados aleatóriamente durante a execução da aplicação. Pode ser adicionado em um arquivo .xls ou mesmo em banco de dados para consultas futuras e expansão da variedade disponivel  
+1. Escolher uma fruta aleatoriamente de uma base predefinida, utilizando a classe Random do Java.
+    * A base se encontra no link https://raw.githubusercontent.com/possatti/bsi-bd1-sql-trabalho/master/query2/Dados/Nomes%20de%20Frutas.txt.
+
+2. Escolher uma refeição aleatoriamente de uma base predefinida, utilizando a classe Random do Java.
+    * A base se encontra no link https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_ALIMENTO.csv.
+
