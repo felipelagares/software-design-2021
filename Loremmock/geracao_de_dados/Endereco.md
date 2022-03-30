@@ -1,4 +1,4 @@
-1. Pegar um cep válido do DNE Básico para a chave _postal_code_
+1. Pegar um cep do DNE Básico para a chave _postal_code_
     * O DNE Básico é um banco de dados com arquivos em formato texto (.txt) que contém mais de 900 mil CEPs de todo o Brasil oferecido pelo Correios.
 2. Preencher a chave _address_, _neighbourhood_, _city_ e _state_code_ definido pelo CEP
 3. Gerar um número inteiro aleatório entre 1 e 999 para a chave _number_
