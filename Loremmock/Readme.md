@@ -40,7 +40,7 @@ Alguns dados são complexos demais, portanto tem um hiperlink em sua categoria, 
 |Chave|Descrição|Exemplo|Parâmetros opcionais|
 |---|---|---|---|
 name|Nome(homem por padrão)|Gabriel Leles|**rep** - Quantos valores diferentes serão gerados;**gender** - Genero do nome, só aceita "male" e "female" como valores|
-first-name|Primeiro nome(homem por padrão)|Gabriel Leles|**rep** - Quantos valores diferentes serão gerados;**gender** - Genero do nome, só aceita "male" e "female" como valores|
+first-name|Primeiro nome(homem por padrão)|Gabriel Leles|**rep** - Quantos valores diferentes serão gerados; **gender** - Genero do nome, só aceita "male" e "female" como valores|
 last-name|Último nome|Lopes|**rep** - Quantos valores diferentes serão gerados;**gender** - Genero do nome, só aceita "male" e "female" como valores|
 middle-name|Nome do meio|Pires|**rep** - Quantos valores diferentes serão gerados;**gender** - Genero do nome, só aceita "male" e "female" como valores|
 username|Nome de usuário|Gabriel-lpl|**rep** - Quantos valores diferentes serão gerados|
