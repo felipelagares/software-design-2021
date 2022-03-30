@@ -1,1 +1,1 @@
-Os nomes devem ser armazenados e selecionados aleatóriamente durante a execução a aplicação. Pode ser adicionado em um arquivo .xls ou mesmo em banco de dados para consultas futuras e expansão da variedade disponivel  
+Os nomes devem ser armazenados e selecionados aleatóriamente durante a execução da aplicação. Pode ser adicionado em um arquivo .xls ou mesmo em banco de dados para consultas futuras e expansão da variedade disponivel  
