@@ -23,7 +23,7 @@ Este design utiliza conceitos do [C4 Model](https://c4model.com/) para auxiliar 
 <img src="https://github.com/felipelagares/software-design-2021/blob/dev/Loremmock/imagens/Diagrama_de_Contexto.png">
 
 ##### 2.1.2 Diagrama de Contâiner
-<img src="https://github.com/felipelagares/software-design-2021/blob/dev/Loremmock/imagens/Diagrama_de_Container.png">
+<img src="https://github.com/felipelagares/software-design-2021/blob/dev/Loremmock/imagens/DiagramadeContainer.png">
 
 ### 3. Geração de Dados
 #### 3.1 Tipos de Dados Suportados
