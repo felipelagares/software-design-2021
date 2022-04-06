@@ -126,5 +126,5 @@ phone|Número de telefone|+1-(063)-278-5412|**rep** - Quantos valores diferentes
 ##### 3.1.11 [Midia](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Midia.md)
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
-|movie|endereço ipv6|a865:90ef:b48d:ec88:a66c:758a:ed1e:5423|**rep** - Quantos valores diferentes serão gerados;**min_date** - Procurar filmes que foram lançados apos essa data;**max_date** - Procurar filme que foram lançados antes dessa data|
-|book|Titulo de um livro aleatorio|38:29:5a:85:45:8e|**rep** - Quantos valores diferentes serão gerados;**min_date** - Procurar livros que foram lançados apos essa data;**max_date** - Procurar livros que foram lançados antes dessa data|
+|movie|titulo de filme aleatorio|Gatsby|**rep** - Quantos valores diferentes serão gerados;**min_date** - Procurar filmes que foram lançados apos essa data;**max_date** - Procurar filme que foram lançados antes dessa data|
+|book|titulo de um livro aleatorio|The Tempest|**rep** - Quantos valores diferentes serão gerados;**min_date** - Procurar livros que foram lançados apos essa data;**max_date** - Procurar livros que foram lançados antes dessa data|
