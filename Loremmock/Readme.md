@@ -121,13 +121,3 @@ phone|Número de telefone|+1-(063)-278-5412|**rep** - Quantos valores diferentes
 |ipv4|endereço ipv4|9.151.218.226|**rep** - Quantos valores diferentes serão gerados|
 |ipv6|endereço ipv6|a865:90ef:b48d:ec88:a66c:758a:ed1e:5423|**rep** - Quantos valores diferentes serão gerados|
 |mac_adress|endereço mac|38:29:5a:85:45:8e|**rep** - Quantos valores diferentes serão gerados|
-
-#### 3.2 Modelo de Dados(?)
-
-### 4. Gestão de Usuários
-#### 4.1 Interface
-
-#### 4.2 Persisntência de Dados dos Usuários
-
-### 5. Protótipos
-<< colocar umas imagens de exemplo>>
