@@ -121,3 +121,10 @@ phone|Número de telefone|+1-(063)-278-5412|**rep** - Quantos valores diferentes
 |ipv4|endereço ipv4|9.151.218.226|**rep** - Quantos valores diferentes serão gerados|
 |ipv6|endereço ipv6|a865:90ef:b48d:ec88:a66c:758a:ed1e:5423|**rep** - Quantos valores diferentes serão gerados|
 |mac_adress|endereço mac|38:29:5a:85:45:8e|**rep** - Quantos valores diferentes serão gerados|
+
+
+##### 3.1.11 [Midia](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Midia.md)
+|Chave|Descrição|Exemplo|Parâmetros|
+|---|---|---|---|
+|movie|endereço ipv6|a865:90ef:b48d:ec88:a66c:758a:ed1e:5423|**rep** - Quantos valores diferentes serão gerados;**min_date** - Procurar filmes que foram lançados apos essa data;**max_date** - Procurar filme que foram lançados antes dessa data|
+|book|Titulo de um livro aleatorio|38:29:5a:85:45:8e|**rep** - Quantos valores diferentes serão gerados;**min_date** - Procurar livros que foram lançados apos essa data;**max_date** - Procurar livros que foram lançados antes dessa data|
