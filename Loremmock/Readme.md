@@ -94,13 +94,7 @@ phone|Número de telefone|+1-(063)-278-5412|**rep** - Quantos valores diferentes
 |mime_type|MIME type|application/json|**rep** - Quantos valores diferentes serão gerados;**type** - Tipo da aplicação, tipos disponiveis: "application", "audio", "image", "message", "text", "video"|
 |filename|nome do arquivo|design.md|**rep** - Quantos valores diferentes serão gerados;**type** - Tipo de extensão, tipos disponiveis: "source", "text", "data", "audio", "video", "image", "executable", "compressed"|
 
-##### 3.1.8 [Negocios](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Negocios.md)
-|Chave|Descrição|Exemplo|Parâmetros|
-|---|---|---|---|
-|cryptocurrency|codigo da criptomoeda|ETH|**rep** - Quantos valores diferentes serão gerados|
-|currency|codigo da moeda|BRL|**rep** - Quantos valores diferentes serão gerados|
-
-##### 3.1.9 [Pagamento](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Pagamento.md)
+##### 3.1.8 [Pagamento](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Pagamento.md)
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |btc_adress|endereço bitcoin|1EvbUtfMRodWmHFiEhV2SkCAZFHkAcer33|**rep** - Quantos valores diferentes serão gerados|
@@ -110,7 +104,7 @@ phone|Número de telefone|+1-(063)-278-5412|**rep** - Quantos valores diferentes
 |cc_number|numero do cartão de crédito|4716 6347 0036 2497|**rep** - Quantos valores diferentes serão gerados;**brand** Bandeira do cartão, bandeiras disponiveis: mastercard, visa, elo|
 |cc_provider|bandeira do cartão de crédito|Elo|**rep** - Quantos valores diferentes serão gerados|
 
-##### 3.1.10 [Códigos](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Codigos.md)
+##### 3.1.9 [Códigos](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Codigos.md)
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |uuid|UUID|13c2052e-e604-42d0-8c10-e9bb6d48fcfc|**rep** - Quantos valores diferentes serão gerados|
@@ -121,7 +115,7 @@ phone|Número de telefone|+1-(063)-278-5412|**rep** - Quantos valores diferentes
 |hsv_color|Cor em HSV|hsv(14, 89, 67)|**rep** - Quantos valores diferentes serão gerados|
 |color|Cor|Vermelho|**rep** - Quantos valores diferentes serão gerados|
 
-##### 3.1.11 [Web](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Web.md)
+##### 3.1.10 [Web](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Web.md)
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |ipv4|endereço ipv4|9.151.218.226|**rep** - Quantos valores diferentes serão gerados|
