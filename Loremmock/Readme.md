@@ -36,7 +36,7 @@ Alguns dados são complexos demais, portanto tem um hiperlink em sua categoria, 
 |random-float|Decimal entre 0 e 10|8.753240|**rep** - Quantos valores diferentes serão gerados;**min** - O valor minimo do numero a ser gerado(Deve ser maior que 0);**max** - O numero maximo a ser gerado(Deve ser menor que 10);|
 |boolean|Verdadeiro ou falso|True|**rep** - Quantos valores diferentes serão gerados|
 
-##### 3.1.2 Pessoa
+##### 3.1.2 [Pessoa](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Pessoa.md)
 |Chave|Descrição|Exemplo|Parâmetros opcionais|
 |---|---|---|---|
 name|Nome(homem por padrão)|Gabriel Leles|**rep** - Quantos valores diferentes serão gerados;**gender** - Genero do nome, só aceita "male" e "female" como valores|
@@ -87,33 +87,20 @@ phone|Número de telefone|+1-(063)-278-5412|**rep** - Quantos valores diferentes
 |graphic|modelo da placa de vídeo|NVIDIA GeForce MX150|**rep** - Quantos valores diferentes serão gerados|
 |model|modelo do hardware|Lenovo ideapad 330|**rep** - Quantos valores diferentes serão gerados|
 
-#### 3.1.7 [Comida](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Comida.md)
-|Chave|Descrição|Exemplo|Parâmetros|
-|---|---|---|---|
-|fruit|nome de fruta|Goiaba|**rep** - Quantos valores diferentes serão gerados|
-|dish|nome da refeição|Feijão tropeiro|**rep** - Quantos valores diferentes serão gerados|
-|spice|nome de um tempero ou especiaria|Pimenta do reino|**rep** - Quantos valores diferentes serão gerados|
-|vegetable|nome de verduras ou legumes|Couve|**rep** - Quantos valores diferentes serão gerados|
-|drink|nome de bebida|Suco de tamarindo|**rep** - Quantos valores diferentes serão gerados|
-
-#### 3.1.8 [Arquivo](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Arquivo.md)
+#### 3.1.7 [Arquivo](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Arquivo.md)
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |extension|extensão do arquivo|.png|**rep** - Quantos valores diferentes serão gerados;**type** - Tipo de extensão, tipos disponiveis: "source", "text", "data", "audio", "video", "image", "executable", "compressed"|
 |mime_type|MIME type|application/json|**rep** - Quantos valores diferentes serão gerados;**type** - Tipo da aplicação, tipos disponiveis: "application", "audio", "image", "message", "text", "video"|
 |filename|nome do arquivo|design.md|**rep** - Quantos valores diferentes serão gerados;**type** - Tipo de extensão, tipos disponiveis: "source", "text", "data", "audio", "video", "image", "executable", "compressed"|
 
-##### 3.1.9 Negocios
+##### 3.1.8 [Negocios](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Negocios.md)
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
-|company|nome da empresa|Panificadora Alegria|**rep** - Quantos valores diferentes serão gerados|
-|company_type|tipo da empresa|Microempresa|**rep** - Quantos valores diferentes serão gerados|
-|copyright|copyright|© Mott's, LLP|**rep** - Quantos valores diferentes serão gerados|
-|company_catch_phrase|frase de  efeito/lema da empresa|Tecnologia intiutiva nossa especialidade|**rep** - Quantos valores diferentes serão gerados|
 |cryptocurrency|codigo da criptomoeda|ETH|**rep** - Quantos valores diferentes serão gerados|
 |currency|codigo da moeda|BRL|**rep** - Quantos valores diferentes serão gerados|
 
-##### 3.1.10 Pagamento
+##### 3.1.9 [Pagamento](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Pagamentos.md)
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |btc_adress|endereço bitcoin|1EvbUtfMRodWmHFiEhV2SkCAZFHkAcer33|**rep** - Quantos valores diferentes serão gerados|
@@ -123,7 +110,7 @@ phone|Número de telefone|+1-(063)-278-5412|**rep** - Quantos valores diferentes
 |cc_number|numero do cartão de crédito|4716 6347 0036 2497|**rep** - Quantos valores diferentes serão gerados;**brand** Bandeira do cartão, bandeiras disponiveis: mastercard, visa, elo|
 |cc_provider|bandeira do cartão de crédito|Elo|**rep** - Quantos valores diferentes serão gerados|
 
-##### 3.1.11 Códigos
+##### 3.1.10 [Códigos](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Codigos.md)
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |uuid|UUID|13c2052e-e604-42d0-8c10-e9bb6d48fcfc|**rep** - Quantos valores diferentes serão gerados|
@@ -133,9 +120,8 @@ phone|Número de telefone|+1-(063)-278-5412|**rep** - Quantos valores diferentes
 |rgb_color|Cor em RGB|rgb(87, 229, 215)|**rep** - Quantos valores diferentes serão gerados|
 |hsv_color|Cor em HSV|hsv(14, 89, 67)|**rep** - Quantos valores diferentes serão gerados|
 |color|Cor|Vermelho|**rep** - Quantos valores diferentes serão gerados|
-|language|Linguagem de programação|java|**rep** - Quantos valores diferentes serão gerados|
 
-##### 3.1.12 [Web](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Web.md)
+##### 3.1.11 [Web](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Web.md)
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |ipv4|endereço ipv4|9.151.218.226|**rep** - Quantos valores diferentes serão gerados|
