@@ -100,7 +100,7 @@ phone|Número de telefone|+1-(063)-278-5412|**rep** - Quantos valores diferentes
 |cryptocurrency|codigo da criptomoeda|ETH|**rep** - Quantos valores diferentes serão gerados|
 |currency|codigo da moeda|BRL|**rep** - Quantos valores diferentes serão gerados|
 
-##### 3.1.9 [Pagamento](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Pagamentos.md)
+##### 3.1.9 [Pagamento](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Pagamento.md)
 |Chave|Descrição|Exemplo|Parâmetros|
 |---|---|---|---|
 |btc_adress|endereço bitcoin|1EvbUtfMRodWmHFiEhV2SkCAZFHkAcer33|**rep** - Quantos valores diferentes serão gerados|
