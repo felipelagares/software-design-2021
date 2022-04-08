@@ -23,7 +23,7 @@ Este design utiliza conceitos do [C4 Model](https://c4model.com/) para auxiliar 
 <img src="https://github.com/felipelagares/software-design-2021/blob/dev/Loremmock/imagens/Diagrama_de_Contexto.png">
 
 ##### 2.1.2 Diagrama de Contâiner
-<img src="https://github.com/felipelagares/software-design-2021/blob/dev/Loremmock/imagens/Diagrama_de_Container.png">
+<img src="https://github.com/felipelagares/software-design-2021/blob/dev/Loremmock/imagens/DiagramadeContexto.png">
 
 ### 3. Geração de Dados
 #### 3.1 Tipos de Dados Suportados
@@ -122,12 +122,23 @@ phone|Número de telefone|+1-(063)-278-5412|**rep** - Quantos valores diferentes
 |ipv6|endereço ipv6|a865:90ef:b48d:ec88:a66c:758a:ed1e:5423|**rep** - Quantos valores diferentes serão gerados|
 |mac_adress|endereço mac|38:29:5a:85:45:8e|**rep** - Quantos valores diferentes serão gerados|
 
-#### 3.2 Modelo de Dados(?)
 
-### 4. Gestão de Usuários
-#### 4.1 Interface
+##### 3.1.11 [Midia](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Midia.md)
+|Chave|Descrição|Exemplo|Parâmetros|
+|---|---|---|---|
+|movie|titulo de filme aleatorio|Gatsby|**rep** - Quantos valores diferentes serão gerados;**min_date** - Procurar filmes que foram lançados apos essa data;**max_date** - Procurar filme que foram lançados antes dessa data|
+|book|titulo de um livro aleatorio|The Tempest|**rep** - Quantos valores diferentes serão gerados;**min_date** - Procurar livros que foram lançados apos essa data;**max_date** - Procurar livros que foram lançados antes dessa data|
 
-#### 4.2 Persisntência de Dados dos Usuários
+#### 4 Gestão de Usuário
+Quando o cadastro for feito pelo usuário, ele recebera uma API key, que indica que o usuario tem uma conta e pode começar a usar o Mockend usando essa API key toda a vez que for fazer requisição, porém para evitar que possam ter ataques maliciosos e/ou uma requisição de dados muito grande, vinculado a sua API key tera um limite de requisições, será organizado dessa forma:
 
-### 5. Protótipos
-<< colocar umas imagens de exemplo>>
+**API KEY**
+1. Cada cadastro terá uma, é obrigatorio para requisitar qualquer dado no Mockend.
+2. Após obter uma key, não sera necessario logar de novo pois ela pode ser usada apenas usando a chave.
+3. Caso haja suspeita da conta esta sendo maliciosa por ter atinjido o limite multiplas vezes, podera ser necessario logar e fazer a autenticação captcha novamente.
+
+**Requisições**
+1. Serão necessarias definir o tipo de dados que está fazendo a requisição opcionalmente com parametros e a API key.
+2. Haverá um limite de requisições, quando o usuario atinge esse limite, recebera um erro 429, que indica que houve muitas requisições.
+3. Se for feito uma requisição sem uma API Key ou com uma que não existe, recebera um erro 401, que indica que não pode autenticar a chave.
+4. Caso o limite de requisições seja alcando, podera fazer requisições após o intervalo de tempo entre muitas requisições acabe.
