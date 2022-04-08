@@ -133,7 +133,7 @@ phone|Número de telefone|+1-(063)-278-5412|**rep** - Quantos valores diferentes
 Quando o cadastro for feito pelo usuário, ele recebera uma API key, que indica que o usuario tem uma conta e pode começar a usar o Mockend usando essa API key toda a vez que for fazer requisição, porém para evitar que possam ter ataques maliciosos e/ou uma requisição de dados muito grande, vinculado a sua API key tera um limite de requisições, será organizado dessa forma:
 
 **API KEY**
-1. Cada cadastro terá uma, é obrigatorio para requisitar qualquer dado no Mockend
+1. Cada cadastro terá uma, é obrigatorio para requisitar qualquer dado no Mockend.
 2. Após obter uma key, não sera necessario logar de novo pois ela pode ser usada apenas usando a chave.
 3. Caso haja suspeita da conta esta sendo maliciosa por ter atinjido o limite multiplas vezes, podera ser necessario logar e fazer a autenticação captcha novamente.
 
