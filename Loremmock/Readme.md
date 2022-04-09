@@ -39,16 +39,12 @@ Alguns dados são complexos demais, portanto tem um hiperlink em sua categoria, 
 ##### 3.1.2 [Pessoa](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Pessoa.md)
 |Chave|Descrição|Exemplo|Parâmetros opcionais|
 |---|---|---|---|
-name|Nome(homem por padrão)|Gabriel Leles|**rep** - Quantos valores diferentes serão gerados;**gender** - Genero do nome, só aceita "male" e "female" como valores|
-first-name|Primeiro nome(homem por padrão)|Gabriel Leles|**rep** - Quantos valores diferentes serão gerados; **gender** - Genero do nome, só aceita "male" e "female" como valores|
-last-name|Último nome|Lopes|**rep** - Quantos valores diferentes serão gerados;**gender** - Genero do nome, só aceita "male" e "female" como valores|
-middle-name|Nome do meio|Pires|**rep** - Quantos valores diferentes serão gerados;**gender** - Genero do nome, só aceita "male" e "female" como valores|
+first-name|Primeiro nome|Gabriel|**rep** - Quantos valores diferentes serão gerados|
+last-name|Último nome|Lopes|**rep** - Quantos valores diferentes serão gerados|
+middle-name|Nome do meio|Pires|**rep** - Quantos valores diferentes serão gerados|
 username|Nome de usuário|Gabriel-lpl|**rep** - Quantos valores diferentes serão gerados|
 email|Endereço de email(domínio padrão loremock.com)|gabrielleles@loremock.com|**rep** - Quantos valores diferentes serão gerados;**dominio** - dominio do email, como "gmail.com"|
-social-media|Link de conta de mídia social|https://facebook.com/gabrielleles.1042|**rep** - Quantos valores diferentes serão gerados;**midia** - Rede social gerado, aceita como valores "facebook" e "instagram"|
 blood-type|Tipo sanguíneo|O+|**rep** - Quantos valores diferentes serão gerados|
-job|Emprego|Engenheiro Civil|**rep** - Quantos valores diferentes serão gerados|
-degree|Formação acadêmica|Doutorado|**rep** - Quantos valores diferentes serão gerados|
 phone|Número de telefone|+1-(063)-278-5412|**rep** - Quantos valores diferentes serão gerados;**format**- Escolhe a formatação do numero, usando # para os dígitos como por exemplo: "(+#)-###-####"|
 
 ##### 3.1.3 [Endereço](https://github.com/felipelagares/software-design-2021/tree/dev/Loremmock/geracao_de_dados/Endereco.md)
