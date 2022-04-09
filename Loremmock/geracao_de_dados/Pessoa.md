@@ -2,4 +2,6 @@
 2. O nome de pessoa gerado pela chave last-name será gerado da mesma forma que o primeiro.
 3. O nome de pessoa gerado pela chave middle-name será gerado da mesma forma que o primeiro.
 4. O nome de usuário gerado pela chave username será um nome aleatório de acordo com critérios estabelecidos pelo usuário, como o número de letras, se é fácil de pronunciar ou ler(pode até ser ambos), se usa letras maiúsculas, letras minúsculas, números e caracteres especiais. Usará o primeiro nome gerado e adicionará caracteres aleatórios com a classe random.
-5. O endereço de email gerado pela chave email será um email aleatório gerado de acordo com critérios estabelecidos pelo usuário como o domínio, se deve ter números, letras maiúsculas ou letras minúsculas e caracteres especiais que tambem serão gerados aleatóriamente e adicionados a string após a junção dos nomes dos passos 1 e 3. 
+5. O endereço de email gerado pela chave email será um email aleatório gerado de acordo com critérios estabelecidos pelo usuário como o domínio, se deve ter números, letras maiúsculas ou letras minúsculas e caracteres especiais que tambem serão gerados aleatóriamente e adicionados a string após a junção dos nomes dos passos 1 e 3.
+6. Tipo sanguineo deve ser sorteado entre A, B, AB e O e depois entre positvo ou negativo.
+7. Telefones devem ser gerados no formato especificado pelo usuario como: +##-(###)-###-#### onde cada caractere '#' corresponde a um numero aleatório de 0 a 9. 
